@@ -34,6 +34,6 @@ while (not valid):
 # summation(): Will add all the numbers together and return the sum
 def summation(ints):
 
-#product(): Will multiply all the numbers together and return the producr
+# product(): Will multiply all the numbers together and return the product
 def product(ints):
 
