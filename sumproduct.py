@@ -29,7 +29,10 @@ def summation(ints):
 
 # product(): Will multiply all the numbers together and return the product
 def product(ints):
-    return 0
+    prod = 1
+    for i in ints:
+        prod *= i
+    return prod
 
 # Ask if user wants to get SUM or PRODUCT of numbers, ask to try again if invalid input
 # Appropriate function will be called, and answer will be returned and displayed to the user
